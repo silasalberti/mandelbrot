@@ -4,7 +4,7 @@ const pixelSize = 1;
 let numIters = 50;
 const zoomFactor = 2;
 
-let x0 = 0;
+let x0 = -0.3;
 let y0 = 0;
 let xSpan = 2;
 let ySpan = xSpan * (innerHeight / innerWidth);
