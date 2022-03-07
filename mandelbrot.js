@@ -51,7 +51,7 @@ function drawMandelbrot(x0, y0, xSpan, ySpan) {
                 yy += y;
 
                 if (xx * xx + yy * yy > 4) {
-                    ctx.fillStyle = `hsl(${360 * (k % 25) / 25},40%,50%)`;
+                    ctx.fillStyle = `hsl(${360 * (k % 25) / 25},50%,50%)`;
                     ctx.fillRect(i * pixelSize, j * pixelSize, pixelSize, pixelSize);
                     done = true;
                 }
